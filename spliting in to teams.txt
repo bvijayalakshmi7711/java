@@ -1,0 +1,10 @@
+
+if __name__=="__main__":
+    #Fill your code here.
+    no_of_students=int(input("Number of students:"))
+    no_of_teams=int(input("Number of teams:"))
+
+    team_strength=str(no_of_students//no_of_teams)
+    left_out=str(no_of_students % no_of_teams)
+
+    print("The number of students in each team, left out is (",team_strength,",",left_out,")")

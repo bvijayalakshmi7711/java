@@ -1,0 +1,13 @@
+if __name__=="__main__":
+    #Fill your code here.
+    x=int(input())
+
+    count=0
+
+    while x>0:
+        t=x%10
+        x=x//10
+        if t==4 :
+            count+=1 
+    
+    print(count)
